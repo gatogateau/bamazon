@@ -1,12 +1,11 @@
 # bamazon
 
-this is an order program. 
 
-This downloads the database.
+Thisi is an order program through Node.js.   Bamazon is set up as a database through mysql with items, id, and prices.
+When the program is run, a query is run to the database and the user is given a list of items, asked which item he/she would like to purchase, then the quantity.  
 
-the user is asked to choose which item ID he or she wants to order, 
-confirms the submission
+The program will verify the item exists, and if the there is enough quantity to order.  
 
-then asks the quantity. 
+If all is correct/true, then the order will be placed and update the quantity in the Database.  
 
-If there is enough stock in hand, the customer's order will go through and arrive at their door  
+  
